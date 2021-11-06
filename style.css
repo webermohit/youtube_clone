@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.main-container {
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* background: rgb(39, 39, 39); */
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-container .menu-icon-logo {
+    display: flex;
+    align-items: center;
+}
+
+.main-container .menu-icon-logo #menu-icon {
+    color: #000;
+    font-size: 1.7rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.main-container .menu-icon-logo .logo {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+nav .search-bar #search {
+    height: 40px;
+    width: 500px;
+    outline: none;
+    border: 1px solid #777;
+    font-family: monospace;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
+nav .search-bar #search-btn {
+    padding-left: 10px;
+    background: #f5f5f5;
+    height: 38px;
+    width: 50px;
+    border: 1px solid #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+nav .search-bar #mic {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.accounts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.accounts #create {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.accounts #apps {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.accounts #bell {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.accounts #profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu-left-section {
+    display: flex;
+    height: 100vh;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.menu-left-section ul {
+    list-style: none;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.menu-left-section ul li {
+    display: block;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.menu-left-section ul li a {
+    color: #000;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-left-section #icons {
+    margin-right: 10px;
+}
+
+
+.videos-container {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 1100px;
+    height: 570px;
+    flex-wrap: wrap;
+}
+
+.videos-container .video {
+    height: 150px;
+    width: 250px;
+    background: #777;
+    margin: 5px;
+}
+
